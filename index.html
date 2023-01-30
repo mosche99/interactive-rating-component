@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="app" id="app">
+        <span class="star-logo">★</span>
+        <div class="text">
+            <h3 class="title">How did we do?</h3>
+            <p class="paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering</p>
+        </div>
+        <div class="rating">
+            <div class="star" id="star-1">1</div>
+            <div class="star" id="star-2">2</div>
+            <div class="star" id="star-3">3</div>
+            <div class="star" id="star-4">4</div>
+            <div class="star" id="star-5">5</div>
+        </div>
+        <button type="submit" class="submit" id="submit">Submit</button>
+    </div>
+    <div id="thank-you" class="thank-you hide">
+        <img src="./images/illustration-thank-you.svg" alt="" class="image">
+        <div class="selection"><span id="calification" class="calification"></span></div>
+        <h3 class="thank-you-title">Thank You!</h3>
+        <p class="thank-you-paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don´t hesitate to get in touch!</p>
+    </div>
+    
+</body>
+</html>
